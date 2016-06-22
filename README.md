@@ -22,7 +22,9 @@ Note: I haven't tested this code in Windows and Mac
 
 Please take a look the [data sample](data-sample.txt) file. In general, each row is one sentence for monologue (*or* utterance for dialogue) and its corresponding label, separated by **TAB**.
 
-For test or the label is unknown, please use $-1$ instead of any integer $>0$
+For test or the label is unknown, please use -1 as label.
+
+In addition, "===" is used as document boundary, to separate one document from its preceding and following document.
 
 ## Command Line Example ##
 
